@@ -199,7 +199,7 @@ module.exports = function(schema, option) {
     //   }
     //   delete mapStyle.width;
     // }
-    console.log(style['justifyContent'])
+    
     if(style['justifyContent'] == 'center') {
       mapStyle['alignment'] = 'Alignment.center';
     }
